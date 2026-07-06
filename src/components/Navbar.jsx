@@ -40,8 +40,8 @@ export default function Navbar() {
           </a>
         </nav>
 
-       <a className="btn btn-cv" href="/cv.pdf" download>
-  [ DOWNLOAD_CV ]
+   <a className="btn btn-cv" href="/cv.pdf" download>
+  ↓ Download CV
 </a>
         <button className="nav-burger" aria-label="Toggle menu" onClick={() => setOpen(!open)}>
           <span /><span /><span />
